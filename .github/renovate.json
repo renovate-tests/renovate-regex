@@ -1,0 +1,16 @@
+{
+  "enabledManagers": [ "regex" ],
+  "regexManagers": [
+    {
+      "fileMatch": [ "(^|/)\\.deps\\.yaml$" ],
+      "matchStrings": [ "^prometheus: (?<currentValue>.*?)$" ],
+      "depNameTemplate": "prometheus",
+      "datasourceTemplate": "pypi"
+    },
+    {
+      "fileMatch": [ "(^|/)\\.deps\\.yaml$" ],
+      "matchStrings": [ "^\\s*anchor: (?<depName>[^:]+):(?<currentValue>\\S+)" ],
+      "datasourceTemplate": "docker"
+    }
+  ]
+}
