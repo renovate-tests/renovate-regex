@@ -1,4 +1,4 @@
-prometheus: 0.2.1
+prometheus: 0.3.0
 anchor: renovate/renovate:25.34
 # more lines
   anchor: stefanprodan/podinfo:5.2.0
