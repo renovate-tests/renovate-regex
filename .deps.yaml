@@ -3,4 +3,4 @@ anchor: renovate/renovate:25.34
 # more lines
   anchor: stefanprodan/podinfo:5.2.0
 # more lines
-            anchor: mozilla/syncserver:1.9.0 baz
+            anchor: mozilla/syncserver:1.9.1 baz
