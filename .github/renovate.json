@@ -3,7 +3,7 @@
   "regexManagers": [
     {
       "fileMatch": [ "(^|/)\\.deps\\.yaml$" ],
-      "matchStrings": [ "^prometheus: (?<currentValue>.*?)$" ],
+      "matchStrings": [ "^prometheus: (?<currentValue>.*?)\\n" ],
       "depNameTemplate": "prometheus",
       "datasourceTemplate": "pypi"
     },
