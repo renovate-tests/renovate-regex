@@ -9,7 +9,7 @@
     },
     {
       "fileMatch": [ "(^|/)\\.deps\\.yaml$" ],
-      "matchStrings": [ "^\\s*anchor: (?<depName>[^:]+):(?<currentValue>\\S+)" ],
+      "matchStrings": [ "\\n\\s*anchor: (?<depName>[^:]+):(?<currentValue>\\S+)" ],
       "datasourceTemplate": "docker"
     }
   ]
